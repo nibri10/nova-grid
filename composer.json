@@ -5,6 +5,8 @@
         "laravel",
         "nova"
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "license": "MIT",
     "require": {
         "php": ">=7.1.0"
@@ -24,6 +26,5 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    
 }
