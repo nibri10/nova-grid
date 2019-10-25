@@ -5,17 +5,34 @@
         "laravel",
         "nova"
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
+   
     "license": "MIT",
     "require": {
-        "php": ">=7.1.0"
+        "php": ">=7.1.0",
+       
     },
+     "require-dev": {
+          "nibri10/nova-grid" : "dev-master"
+     },
     "autoload": {
         "psr-4": {
             "Nibri10\\NovaGrid\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "nibri10/nova-grid",
+                "version":"master",
+                "source": {
+                    "url": "https://github.com/nibri10/nova-grid.git",
+                    "type": "git",
+                    "reference":"master"
+                }
+            }
+        }
+    ],
     "extra": {
         "laravel": {
             "providers": [
@@ -25,6 +42,8 @@
     },
     "config": {
         "sort-packages": true
-    }
+    },
+     "minimum-stability": "dev",
+     "prefer-stable": true
     
 }
