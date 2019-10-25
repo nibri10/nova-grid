@@ -1,3 +1,6 @@
+
+#Based on this package that was dropped by the author
+ https://packagist.org/packages/jobcerto/nova-grid
 # Grid Layout tool for Laravel Nova
 
 
