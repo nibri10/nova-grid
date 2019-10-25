@@ -1,6 +1,6 @@
 {
     "name": "nibri10/nova-grid",
-    "description": "A Laravel Nova tool.",
+    "description": "Add coluns to create and Update resources",
     "keywords": [
         "laravel",
         "nova"
