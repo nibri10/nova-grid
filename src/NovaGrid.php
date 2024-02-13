@@ -2,6 +2,7 @@
 
 namespace Nibri10\NovaGrid;
 
+use Illuminate\Http\Request;
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;
 
@@ -26,5 +27,16 @@ class NovaGrid extends Tool
     public function renderNavigation()
     {
         return ;
+    }
+
+    /**
+     * Build the menu that renders the navigation links for the tool.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return mixed
+     */
+    public function menu(Request $request)
+    {
+        return [];
     }
 }
